@@ -1,0 +1,257 @@
+/*-----Variables-----*/
+:root {
+    --background: #FFFFFF;
+    --background-dark: #1D1C1C;
+    --card: #F6F2EF;
+    --accent-magenta: #FF5678;
+    --accent-green: #149770;
+    --text-primary: #1D1C1C;
+    --text-secondary: #787878;
+    --primary-font: Nunito;
+    --secondary-font: Nunito Sans;
+    --h1-size: 88px;
+    --h1-weight: 800;
+    --h2-size: 48px;
+    --h2-weight: 800;
+    --h3-size: 40px;
+    --h3-weight: 700;
+    --h4-size: 20px;
+    --h4-weight: 600;
+    --nav-button-size: 16px;
+    --nav-button-weight: 800;
+    --p1-size: 20px;
+    --p1-weight: 400;
+    --card-button-size: 16px;
+    --card-button-weight: 700;
+}
+
+/*-----Body-----*/
+html, body {
+    width: 100%;
+    height: 100%;
+    background: var(--background);
+    padding: 0px;
+    margin: 0px;
+}
+
+/*-----Header-----*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 8.33%;
+    padding: 20px 0;
+    height: 4.65%;
+    width: 83.33%
+}
+
+/*-----Nav-----*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+/*-----Links-----*/
+a {
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-size: var(--nav-button-size);
+    font-weight: var(--nav-button-weight);
+    color: var(--text-primary);
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+/*-----Log In Button-----*/
+nav button {
+    background: var(--accent-magenta);
+    border-radius: 24px;
+    border: none;
+    font-family: var(--primary-font);
+    font-size: var(--nav-button-size);
+    font-weight: var(--nav-button-weight);
+    color: var(--background);
+    width: 40%;
+    height: 40px;
+    letter-spacing: 0.1em;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+
+/*-----Main Content-----*/
+main {
+    margin: 0 8.33%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+/*-----Full Title Container-----*/
+.title {
+    margin: 20.36% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 26.02%;
+}
+
+/*----Title Logo----*/
+.logo {
+    width: 58.66%;
+    height: 100%;
+
+}
+
+/*-----Main Title-----*/
+h1 {
+    font-family: var(--primary-font);
+    font-size: var(--h1-size);
+    font-weight: var(--h1-weight);
+    color: var(--text-primary);
+    width: 456px;
+    height: 200px;
+}
+
+/*-----Subtitle-----*/
+h3 {
+    font-family: var(--primary-font);
+    font-size: var(--h3-size);
+    font-weight: var(--h3-weight);
+    width: 456px;
+    height: 55px;
+}
+
+/*-----Search Bar-----*/
+input {
+    width: 325px;
+    height: 64px;
+    background-color: var(--card);
+    border-radius: 16px;
+    border: none;
+    font-family: var(--secondary-font);
+    font-size: var(--p1-size);
+    font-weight: var(--p1-weight);
+    color: var(--text-secondary);
+    padding-left: 25px;
+}
+
+/*-----Arrow Button-----*/
+.title button {
+    background: var(--accent-magenta);
+    border-radius: 40px;
+    border: none;
+    margin-left: 15px;
+    width: 64px;
+    height: 64px;
+    color: var(--background);
+}
+
+/*-----About Section-----*/
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: solid 2px;
+    padding-top: 25px;
+}
+
+/*-----About Title-----*/
+h2 {
+    font-family: var(--primary-font);
+    font-size: var(--h2-size);
+    font-weight: var(--h2-weight);
+    color: var(--text-primary);
+}
+
+/*-----About Paragraphs-----*/
+.about p {
+    font-family: var(--secondary-font);
+    font-size: var(--p1-size);
+    font-weight: var(--p1-weight);
+    color: var(--text-primary);
+}
+
+/*-----Special Offers-----*/
+.offers {
+    border-top: solid 2px;
+    margin-top: 50px;
+    padding-top: 50px;
+    height: 32.91%;
+}
+
+/*-----Special Offer Card Container-----*/
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*-----Cards-----*/
+.card {
+    border-radius: 16px;
+    background-color: var(--card);
+    height: 400px;
+    width: 373px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+
+/*-----Card Title-----*/
+h4 {
+    font-family: var(--primary-font);
+    font-size: var(--h4-size);
+    font-weight: var(--h4-weight);
+    color: var(--text-primary);
+}
+
+/*-----Card Button-----*/
+.card button {
+    height: 48px;
+    width: 157px;
+    font-family: var(--primary-font);
+    font-size: var(--card-button-size);
+    font-weight: var(--card-button-weight);
+    color: var(--background);
+    background-color: var(--accent-magenta);
+    border: none;
+    border-radius: 24px;
+    letter-spacing: 0.2em;
+}
+
+/*-----Footer Container-----*/
+footer {
+    height: 200px;
+    background-color: var(--background-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--background);
+    font-family: var(--secondary-font);
+    font-size: var(--p1-size);
+    font-weight: var(--p1-weight);
+}
+
+/*-----Footer Icons-----*/
+.icons {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media (max-width: 944px) {
+    .logo {
+        display: none;
+    }
+}
